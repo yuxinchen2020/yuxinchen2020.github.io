@@ -1,0 +1,213 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+
+~~~
+{}{raw}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+~~~
+
+= Yuxin Chen
+#{{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img  src="images/stanford_logo.gif" alt="" width="60"><img src="images/UT_logo.gif" alt="" width="62" /><img src="images/tsinghua_logo.jpg" alt="" width="60"/>}}
+
+# ~~~
+# {}{img_left}{images/YuxinChen_0012.jpg}{alt text}{200 px}{IMGLINKTARGET}
+# 
+# I am an assistant professor in the [http://ee.princeton.edu/ Department of Electrical Engineering] and an associated faculty member in the [http://www.cs.princeton.edu/ Department of Computer Science] at Princeton University. 
+#I am also a member of the [http://ee.princeton.edu/research/information-sciences-systems Information Sciences and Systems group].  
+# 
+# Prior to joining Princeton in Spring 2017, I was a postdoctoral scholar in the Department of Statistics at Stanford University supervised by Prof. [http://statweb.stanford.edu/~candes/ Emmanuel Candès].  I completed my Ph.D. in Electrical Engineering at Stanford University in Fall 2014, under the supervision of  Prof. [http://ee.stanford.edu/~andrea Andrea Goldsmith]. 
+#My other degrees include an M.S. in statistics from Stanford University in 2013, an M.S. in Electrical and Computer Engineering from the University of Texas at Austin in 2010, and a B.E. in Microelectronics with High Distinction from Tsinghua University in 2008.
+# 
+# 
+# *Research areas*: convex and nonconvex optimization, high-dimensional structured estimation, statistical learning and inference, information theory, and statistical signal processing.
+# 
+# *Contact:* \n
+# C330, Engineering Quad \n
+# Princeton University, Princeton, NJ 08544 \n
+# 
+# Email: yuxin dot chen at princeton dot edu
+
+
+
+
+#~~~
+
+
+
+~~~
+{}{raw}
+
+<table class="imgtable"><tr><td>
+<img src="images/photo_Dec2019.jpg" alt="alt text" width="200 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>I am an assistant professor of <a href="http://ece.princeton.edu/">Electrical and Computer Engineering</a>, and an associated faculty member of <a href="http://www.cs.princeton.edu/">Computer Science</a>, <a href="https://www.pacm.princeton.edu/">Applied and Computational Mathematics</a>, and the <a href="https://csml.princeton.edu/">Center for Statistics and Machine Learning</a> at Princeton University. 
+</p>
+<p>Prior to joining Princeton in Spring 2017, I was a postdoctoral scholar in the Department of Statistics at Stanford University supervised by Prof. <a href="http://statweb.stanford.edu/~candes/">Emmanuel Candès</a>.  I completed my Ph.D. in Electrical Engineering at Stanford University in Fall 2014, under the supervision of  Prof. <a href="http://ee.stanford.edu/~andrea">Andrea Goldsmith</a>. 
+</p>
+<p><b>Research areas</b>: mathematical data science, statistics, reinforcement learning, optimization, information theory,  and their applications to medical imaging and computational biology.</p>
+<p><b>Contact:</b> <br />
+C330, Engineering Quad <br />
+Princeton University, Princeton, NJ 08544 <br /></p>
+<p>Email: yuxin dot chen at princeton dot edu</p>
+</td></tr></table>
+
+~~~
+
+
+# == Contact
+#C332, Engineering Quad \n
+# Princeton University, Princeton, NJ 08544 \n
+# 
+# Email: yuxin dot chen at princeton dot edu
+
+
+
+== Openings
+ I'm looking for highly motivated postdocs with strong mathematical background and interest in the general areas of 
+ statistics and reinforcement learning. 
+
+
+== Recent news
+
+# - I received the 2019 [https://www.wpafb.af.mil/News/Article-Display/Article/1645955/afosr-awards-grants-to-31-scientists-and-engineers-through-its-young-investigat/ AFOSR Young Investigator Program (YIP) Award]. 
+
+
+- My second student [http://www.princeton.edu/~ccai/ Changxiao Cai] has graduated and will join [http://www-stat.wharton.upenn.edu/~tcai/ Prof. Tony Cai] and [http://statgene.med.upenn.edu/ Prof. Hongzhe Li]'s groups as a postdoc.  Congratulations, Changxiao!!  
+
+- I received the 2021 Princeton SEAS junior faculty award. 
+
+- New monograph on spectral methods: [publications/SpectralMethods.pdf "Spectral Methods for Data Science: A Statistical Perspective"]. 
+
+
+- My first student [https://congma1028.github.io/ Cong Ma] will join the Department of Statistics at the University of Chicago as an assistant professor in 2021. Congratulations, Cong!!     
+
+# - Our paper [https://www.pnas.org/content/pnas/116/46/22931.full.pdf "Inference and Uncertainty Quantification for Noisy Matrix Completion"] has been accepted to Proceedings of the National Academy of Sciences (PNAS), 2019 (direct submission) [publications/MC_inference.pdf \[full version\]].
+
+#- Our paper [https://link.springer.com/content/pdf/10.1007%2Fs10208-019-09429-9.pdf "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution"] has been accepted to Foundations of Computational Mathematics, 2020.
+
+- Overview article: [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8811622 "Nonconvex Optimization Meets Low-Rank Matrix Factorization: An Overview"] [publications/NcxOverview_Arxiv.pdf \[full version\]]. 
+
+#- I am organizing a reading group on [http://www.princeton.edu/~yc5/reading_group/ mathematical data science].  Let me know if you are interested in attending and presenting.   
+# - Yuejie Chi and I gave a tutorial on [slides/itw2018_tutorial.pdf ``Taming Nonconvexity in Information Science''] at ITW 2018.
+
+- I received the 2020 Princeton graduate mentoring award.  
+
+- I received the 2019 AFOSR Young Investigator Program (YIP) Award and the 2020 ARO YIP Award.
+
+
+
+#- Mengdi Wang and I organized a workshop [https://csml.princeton.edu/bridgingmathematicaloptimization ``Bridging Mathematical Optimization, Information Theory, and Data Science''] at Princeton, May 2018. 
+
+
+#- Prof. Mung Chiang and I have a postdoc position for nonconvex optimization theory and distributed machine learning. Send me your CV if you are interested and have strong mathematical background. 
+
+#- ICASSP 2019 tutorial on [slides/icassp2018_tutorial.pdf ``Recent Advances in Nonconvex Methods for High-Dimensional Estimation''],  together with Yuejie Chi and Yue Lu 
+
+
+
+#- I received the SEAS innovation award for ``Deep Learning for Water-Fat Separation in Magnetic Resonance Imaging''.
+ 
+
+
+
+#- Yuejie Chi, Yue Lu, and I will give a tutorial on ``Recent Advances in Nonconvex Methods for High-Dimensional Estimation''at ICASSP 2018. 
+
+#- [http://www.princeton.edu/~yc5/ele538b_sparsity/index.html ELE538B (Sparsity, Structure, and Inference)] is included in the Princeton Engineering Commendation List for Outstanding Teaching
+
+#- We have released the [https://chenyx04.github.io/Spectral-Stitching/ code] for the Spectral-Stitching algorithm, which is a *community detection* approach for *haplotype phasing*. [https://chenyx04.github.io/Spectral-Stitching/ \[Github repo\]][[http://arxiv.org/abs/1602.03828 \[paper\]][slides/cgsi_talk_np.pptx \[CGSI slides by D. Tse\]][slides/Locality_ICML_slides.pdf \[ICML slides\]][https://www.youtube.com/watch?v=OQzm2jdbx8I&list=PLZDU8a6AcnujAG3OScWbsibUVEbrfMdRB&index=4 \[lecture by D. Tse\]]
+
+
+== Teaching
+- Fall 2020: [http://www.princeton.edu/~yc5/ele520_math_data/index.html ELE520: Mathematics of Data Science] \n
+- Fall 2020: ELE201: Information and Signals \n
+- Fall 2019: [http://www.princeton.edu/~yc5/ele522_optimization/index.html ELE522: Large-Scale Optimization for Data Science] (Princeton Engineering Commendation List for Outstanding Teaching) \n
+
+
+#- Fall 2018:  [http://www.princeton.edu/~yc5/ele382_SSP/index.html ELE382: Probabilistic Systems and Information Processing] \n
+#- Spring 2018: [http://www.princeton.edu/~yc5/ele522_optimization/index.html ELE538C: Large-Scale Optimization for Data Science] (Princeton Engineering Commendation List for Outstanding Teaching) \n
+#- Spring 2018: [https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=008024&term=1184 ORF 570 / ELE 578: Special Topics in Statistical Optimization and Reinforcement Learning] (co-taught with Mengdi Wang) [http://www.princeton.edu/~yc5/orf570/randomized_linear_algebra.pdf (lecture notes on randomized linear algebra)]\n
+
+
+
+
+
+== Recent papers
+
+
+- *Reinforcement learning*
+#
+-- G. Li, {{<u>Y. Chen</u>}}, Y. Chi, Y. Gu, Y. Wei,   [publications/LinearQ_Revisit.pdf "Sample-efficient reinforcement learning is feasible for linearly realizable MDPs with limited revisiting,"] 2021. 
+#
+-- W. Zhan\*, S. Cen\*, B. Huang, {{<u>Y. Chen</u>}}, J. D. Lee, Y. Chi,  [https://arxiv.org/abs/2105.11066 "Policy mirror descent for regularized reinforcement learning: A generalized framework with linear convergence,"] 2021. (\*=equal contributions)
+#
+-- G. Li, Y. Wei, Y. Chi, Y. Gu,  {{<u>Y. Chen</u>}},  [publications/SoftmaxPG_LB.pdf "Softmax policy gradient methods can take exponential time to converge,"] 2021 (accepted in part to COLT 2021). [slides/EntropyNPG_slides.pdf \[slides\]]
+#
+-- G. Li, C. Cai, {{<u>Y. Chen</u>}}, Y. Gu, Y. Wei, Y. Chi, [publications/SyncQlearning.pdf "Is Q-Learning Minimax Optimal? A Tight Sample Complexity Analysis,"] 2021 (accepted in part to ICML 2021). 
+#
+-- S. Cen, C. Cheng, {{<u>Y. Chen</u>}}, Y. Wei, Y. Chi,  [publications/NPG_reg.pdf "Fast global convergence of natural policy gradient methods with entropy regularization,"] accepted to /Operations Research/, 2021. [publications/NPG_reg.pdf \[paper\]][slides/EntropyNPG_slides.pdf \[slides\]]
+#
+-- G. Li, Y. Wei, Y. Chi, Y. Gu, {{<u>Y. Chen</u>}}, [publications/model_based_RL.pdf "Breaking the sample size barrier in model-based reinforcement learning with a generative model,"] 2020 (accepted in part to NeurIPS 2020). [publications/model_based_RL.pdf \[paper\]][http://www.stat.cmu.edu/~ytwei/documents/slides/model-based-rl-slides.pdf \[slides\]]
+#[slides/model_based_RL_slides.pdf \[slides\]]
+#
+-- G. Li, Y. Wei, Y. Chi, Y. Gu, {{<u>Y. Chen</u>}}, [publications/AsynQlearning.pdf "Sample complexity of asynchronous Q-learning: Sharper analysis and variance reduction,"] 2020 (accepted in part to NeurIPS 2020). [publications/AsynQlearning.pdf \[paper\]][slides/Async_Qlearning_slides.pdf \[slides\]]
+
+
+
+
+- *Inference and uncertainty quantification*
+#
+-- C. Cai,  H. V. Poor, {{<u>Y. Chen</u>}}, [publications/TC_inference.pdf "Uncertainty quantification for nonconvex tensor completion: Confidence intervals, heteroscedasticity and optimality,"] 2020 (appeared in part in ICML 2020). [publications/TC_inference.pdf \[paper\]][slides/slides_TC.pdf \[slides\]] 
+#
+-- {{<u>Y. Chen</u>}}, J. Fan, C. Ma, Y. Yan,  [https://www.pnas.org/content/pnas/116/46/22931.full.pdf "Inference and uncertainty quantification for noisy matrix completion,"] /Proceedings of the National Academy of Sciences (PNAS)/, vol. 116, no. 46, pp. 22931–22937, Nov. 2019. [publications/MC_inference.pdf \[Arxiv\]][https://www.pnas.org/content/pnas/early/2019/10/29/1910053116.full.pdf \[PNAS version\]][slides/NoisyMC_Inference_slides.pdf \[slides\]]
+#
+#-- P. Sur, {{<u>Y. Chen</u>}}, E. J. Candes, [publications/LRT_HighDim_PTRF.pdf "The likelihood ratio test in high-dimensional logistic regression is asymptotically a /rescaled/ chi-square,"] /Probability Theory and Related Fields/, vol. 175, no. 1-2, pp.487–558, October 2019. [slides/LRT_HighDim_slides.pdf \[slides\]][codes/Code_LRT.zip \[code\]] 
+
+
+
+
+
+- *Nonconvex statistical learning and estimation*
+#
+-- {{<u>Y. Chen</u>}}, J. Fan, C. Ma, Y. Yan,  [publications/RPCA_noise.pdf "Bridging convex and nonconvex optimization in robust PCA: Noise, outliers, and missing data,"] accepted to /Annals of Statistics/, 2021. [publications/RPCA_noise.pdf \[paper\]]
+#
+-- Y. Chen, C. Ma,  H. V. Poor, {{<u>Y. Chen</u>}}, [publications/mixed-matrix-sensing.pdf "Learning Mixtures of Low-Rank Models,"] /IEEE Transactions on Information Theory/, vol. 67, no. 7, pp. 4613-4636, July 2021. [publications/mixed-matrix-sensing.pdf \[paper\]] 
+#
+-- {{<u>Y. Chen</u>}}, J. Fan, B. Wang, Y. Yan,  [publications/BD_noise.pdf "Convex and nonconvex optimization are both minimax-optimal for noisy blind deconvolution,"] under major revision, /Journal of the American Statistical Association/, 2020. [publications/BD_noise.pdf \[paper\]]
+#
+-- C. Cai, G. Li, H. V. Poor, {{<u>Y. Chen</u>}}, [publications/NonconvexTC.pdf "Nonconvex low-rank tensor completion from noisy data,"] accepted to /Operations Research/, 2020 (appeared in part in NeurIPS 2019). [publications/NonconvexTC.pdf \[paper\]][slides/slides_TC.pdf \[slides\]]
+#
+-- {{<u>Y. Chen</u>}}, Y. Chi, J. Fan, C. Ma, Y. Yan,  [https://epubs.siam.org/doi/pdf/10.1137/19M1290000 "Noisy matrix completion: Understanding statistical guarantees for convex relaxation via nonconvex optimization,"]  /SIAM Journal on Optimization/, vol. 30, no. 4, pp. 3098–3121, October 2020. [publications/NoisyMC.pdf \[paper\]][slides/NoisyMC_slides.pdf \[slides\]]
+#
+-- {{<u>Y. Chen</u>}}, Y. Chi, J. Fan, C. Ma, [https://link.springer.com/article/10.1007/s10107-019-01363-6 "Gradient descent with random initialization: Fast global convergence for nonconvex phase retrieval,"] /Mathematical Programming/, vol. 176, no. 1-2, pp. 5-37, July 2019.   [publications/random_init_PR.pdf \[Arxiv\]][slides/random_init_slides.pdf \[slides\]]
+#
+-- C. Ma, K. Wang, Y. Chi, {{<u>Y. Chen</u>}}, [https://link.springer.com/content/pdf/10.1007%2Fs10208-019-09429-9.pdf "Implicit regularization in nonconvex statistical estimation: Gradient descent converges linearly for phase retrieval, matrix completion, and blind deconvolution,"] /Foundations of Computational Mathematics/, vol. 20, no. 3, pp. 451-632, June 2020 (appeared in part in ICML 2018).  [publications/ImplicitReg_main.pdf \[main text\]][publications/ImplicitReg_supp.pdf \[supplement\]][publications/ImplicitReg.pdf \[full paper (Arxiv)\]][slides/implicit_reg_slides.pdf \[slides\]]
+#
+-- {{<u>Y. Chen</u>}} and E. J. Candes, [publications/nonconvexAlign.pdf "The projected power method: An efficient algorithm for joint alignment from pairwise differences,"] /Communications on Pure and Applied Mathematics/, vol. 71, issue 8, pp. 1648-1714, August 2018. [slides/Alignment_slides.pdf \[slides\]][codes/code_NonconvexAlign.zip \[code\]] 
+#
+-- {{<u>Y. Chen</u>}} and E. J. Candes, [publications/TruncatedWF_CPAM.pdf "Solving random quadratic systems of equations is nearly as easy as solving linear systems,"] /Communications on Pure and Applied Mathematics/, vol. 70, issue 5, pp. 822-883, May 2017. [slides/TWF_slides.pdf \[slides\]][http://princeton.edu/~yc5/TWF/ \[website\]]
+
+
+
+
+- *Spectral methods*
+#
+-- G. Li, C. Cai,  Y. Gu, H. V. Poor, {{<u>Y. Chen</u>}}, [publications/Eigenanalysis_linear_forms.pdf "Minimax estimation of linear functions of eigenvectors in the face of small eigen-gaps,"] 2021. [publications/Eigenanalysis_linear_forms.pdf \[paper\]]
+# 
+-- C. Cheng, Y. Wei, {{<u>Y. Chen</u>}}, [publications/eigenvector_inference.pdf "Tackling small eigen-gaps: Fine-grained eigenvector estimation and inference under heteroscedastic noise,"] 2020. [publications/eigenvector_inference.pdf \[paper\]][slides/inference_asymmetry_slides.pdf \[slides\]]
+#
+-- C. Cai, G. Li, Y. Chi, H. V. Poor, {{<u>Y. Chen</u>}}, [publications/unbalanced_PCA.pdf "Subspace estimation from unbalanced and incomplete data matrices, \$\\ell_{2,\\infty}\$ statistical guarantees "]  /Annals of Statistics/, vol. 49, no. 2, pp. 944-967, 2021. [publications/unbalanced_PCA.pdf \[paper\]]
+#
+-- {{<u>Y. Chen</u>}}, C. Cheng, J. Fan,  [publications/asymmetric_eigens.pdf "Asymmetry helps: Eigenvalue and eigenvector analyses of asymmetrically perturbed low-rank matrices,"] /Annals of Statistics/,  vol. 49, no. 1, pp. 435-458, 2021. [publications/asymmetric_eigens.pdf \[paper\]][slides/asymmetry_eigs_slides.pdf \[slides\]]
+#
+-- {{<u>Y. Chen</u>}}, J. Fan, C. Ma, K. Wang, [publications/topK_AOS.pdf "Spectral method and regularized MLE are both optimal for top-/K/ ranking,"] /Annals of Statistics/, vol. 47, no. 4, pp. 2204-2235, August 2019. [publications/topK.pdf \[Arxiv\]][slides/topK_slides.pdf \[slides\]]
+ 
+
+
+

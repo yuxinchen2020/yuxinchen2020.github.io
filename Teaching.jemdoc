@@ -1,0 +1,45 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+~~~
+{}{raw}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+~~~
+
+
+
+= Teaching
+
+==  {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}} Princeton University
+
+- Fall 2020: [http://www.princeton.edu/~yc5/ele520_math_data/index.html Mathematics of Data Science (ELE520)]
+- Fall 2020: Information and Signals (ELE201)
+- Spring 2020: [http://www.princeton.edu/~yc5/syllabus_information_signals_Spring2020.pdf Information and Signals (ELE201)]
+- Fall 2019: [http://www.princeton.edu/~yc5/ele522_optimization/ Large-Scale Optimization for Data Science (ELE 522)]
+-- Princeton Engineering Commendation List for Outstanding Teaching 
+- Fall 2018: [http://www.princeton.edu/~yc5/ele538_math_data/index.html Mathematics of High-Dimensional Data (ELE538)]
+-- Princeton Engineering Commendation List for Outstanding Teaching 
+- Fall 2018: [http://www.princeton.edu/~yc5/ele382_SSP/ Probabilistic Systems and Information Processing (ELE 382)]
+- Spring 2018: [http://www.princeton.edu/~yc5/ele522_optimization/ Large-Scale Optimization for Data Science (ELE 522)] 
+-- Princeton Engineering Commendation List for Outstanding Teaching
+- Spring 2018: Special Topics in Statistical Optimization and Reinforcement Learning (ORF 570 / ELE 578, co-taught with Mengdi Wang) [http://www.princeton.edu/~yc5/orf570/randomized_linear_algebra.pdf (lecture notes on randomized linear algebra)] 
+- Fall 2017: [http://www.princeton.edu/~yc5/ele382_SSP/ Statistical Signal Processing (ELE 382)]
+- Spring 2017:  [http://www.princeton.edu/~yc5/ele538b_sparsity/ Sparsity, Structure, and Inference (ELE 538B)] 
+-- Princeton Engineering Commendation List for Outstanding Teaching
+
+
+==  {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}} Stanford University
+
+- Autumn 2014:  Course assistant for [http://web.stanford.edu/class/archive/ee/ee278/ee278.1152/ EE278: Introduction to Statistical Signal Processing] (taught by [https://web.stanford.edu/~dntse/ David Tse])
+
+- Winter 2014:  Course assistant for [http://web.stanford.edu/class/cs229t/2014/ CS229T: Statistical Learning Theory] (taught by [http://cs.stanford.edu/~pliang/ Percy Liang])
+
+
+

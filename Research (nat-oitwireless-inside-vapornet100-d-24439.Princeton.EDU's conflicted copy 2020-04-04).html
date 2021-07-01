@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title></title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Yuxin Chen</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="Education.html">Education</a></div>
+<div class="menu-item"><a href="Group.html">Group</a></div>
+<div class="menu-item"><a href="Teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="Publications_year.html">Publications</a></div>
+<div class="menu-item"><a href="Software.html">Software</a></div>
+<div class="menu-item"><a href="Resume_Yuxin_CHEN.pdf">Resume</a></div>
+<div class="menu-item"><a href="InvitedTalk.html">Talks</a></div>
+<div class="menu-item"><a href="Workshops.html">Workshops</a></div>
+<div class="menu-item"><a href="reading_group/index.html">Reading&nbsp;group</a></div>
+</td>
+<td id="layout-content">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<h1>Research</h1>
+<p>My research centers around various aspects of information science (broadly defined), including: </p>
+<ul>
+<li><p>High-dimensional Structured Estimation (e.g. Compressed Sensing, Matrix Completion, Phase Retrieval)</p>
+</li>
+<li><p>Convex and Nonconvex Optimization </p>
+</li>
+<li><p>Statistical Inference and Learning</p>
+</li>
+<li><p>Information Theory and Wireless Communications</p>
+</li>
+<li><p>Network Algorithms (e.g. Gossip Algorithms, Network Coding, Scheduling)</p>
+</li>
+</ul>
+<p><b><i>I am particularly fascinated by the theory that is inspired by and can inform practical applications.</i></b> </p>
+<h2>Solving random quadratic systems of equations in linear time</h2>
+<table class="imgtable"><tr><td>
+<img src="images/CG_TWF_no_caption.png" alt="alt text" width="240 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>The problem of solving quadratic equations has many applications ranging from combinatorial optimization to the famous phase retrieval problem. We demonstrate that one can solve unstructured quadratic systems in <img class="eq" src="eqs/14080042351-130.png" alt="n" style="vertical-align: -1px" /> variables from <img class="eq" src="eqs/3830867016983318130-130.png" alt="O(n)" style="vertical-align: -5px" /> equations in linear time. This is achieved by minimizing a  non-convex objective with novel update rules, which operate in an adaptive fashion and drop terms bearing too much influence on the search direction.  Empirically, the computational cost of our algorithm is about four times that of solving a least-squares problem of the same size.</p>
+<ul>
+<li><p><a href="publications/TruncatedWF.pdf">Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems</a>,  Y. Chen and E. J. Candes</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Joint graph matching via convex relaxation</h2>
+<table class="imgtable"><tr><td>
+<img src="images/ChairBuilding.jpg" alt="alt text" width="350 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>We are often given data collections that comprise many, often partial, views<i>images</i>shapes of the same physical object. In order to combine information from them, a central task entails finding shared features across all images.  We proposed a parameter-free convex procedure, called MatchLift, to aggregate a set of initial pairwise estimates (computed in isolation) into a compatible map collection. 
+The algorithm provably exhibits near-optimal matching performance, as corroborated on various benchmark datasets including synthetic and real-world examples.</p>
+<ul>
+<li><p><a href="publications/Matching_ICML.pdf">Near-Optimal Joint Object Matching via Convex Relaxation</a>,  Y. Chen, L. Guibas, and Q. Huang</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Regularizing spectral sparsity via structured matrix completion</h2>
+<table class="imgtable"><tr><td>
+<img src="images/hankel.jpg" alt="alt text" width="200 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>A broad family of applications features signals that can be approximated by a superposition of spectral spikes and involves estimation of signals from incomplete time samples.
+Recent advances in compressed sensing (CS) enables dramatic reduction of sample complexity, provided that one can appropriately exploit signal sparsity. Nevertheless, the success of CS relies on parsimonious representation of the solution in a discrete dictionary, while in various applications the parameters never fall on this discrete basis. 
+
+We developed a near-optimal nonparametric convex program, which promotes sparsity while enforcing constraints consistent with the physics of the problem. The key is to recognize that both structural constraints can be translated into a low-rank Hankel structure.   </p>
+<ul>
+<li><p><a href="publications/SpectralCS.pdf">Robust Spectral Compressed Sensing via Structured Matrix Completion</a>,  Y. Chen and Y. Chi</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Information recovery from pairwise measurements</h2>
+<table class="imgtable"><tr><td>
+<img src="images/graphical_channel.jpg" alt="alt text" width="220 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>In many scenarios, one wishes to infer information about a large collection of variables,
+but it is infeasible to directly measure each individual variable in isolation. Instead, only certain pairwise relations are observable. Problems of this kind have received considerable attention across multiple domains. 
+Despite their intrinsic connections, most of these problems were studied on a case-by-case basis. Our work emphasizes the similarities among this family of problems, by viewing them as a graph-based functional fed into a set of general channels, much like Shannon's approach for communications. Employing information-theoretic techniques, we developed a unified framework to characterize the fundamental recovery criterion, which accommodates general measurement patterns.
+</p>
+<ul>
+<li><p><a href="http://arxiv.org/abs/1504.01369">Information Recovery from Pairwise Measurements: A Shannon-Theoretic Approach</a>,  Y. Chen, C. Suh, and A. Goldsmith</p>
+</li>
+</ul>
+</td></tr></table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2020-04-04 17:14:10 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+(<a href="Research.jemdoc">source</a>)
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

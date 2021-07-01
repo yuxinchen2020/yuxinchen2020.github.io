@@ -1,0 +1,173 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+~~~
+{}{raw}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+~~~
+
+
+
+= Publications (by topic)
+
+#== Journal Articlis
+#
+
+== High-Dimensional Data Analysis
+
+#
+. *Inference and Uncertainty Quantification for Noisy Matrix Completion* \n {{<u>Y. Chen</u>}}, J. Fan, C. Ma, Y. Yan, 2019. [publications/MC_inference.pdf \[paper\]][slides/NoisyMC_Inference_slides.pdf \[slides\]]
+#
+. *Noisy Matrix Completion: Understanding Statistical Guarantees for Convex Relaxation via Nonconvex Optimization* \n {{<u>Y. Chen</u>}}, Y. Chi, J. Fan, C. Ma, Y. Yan, 2019. [publications/NoisyMC.pdf \[paper\]][slides/NoisyMC_slides.pdf \[slides\]]
+#
+. *Asymmetry Helps: Eigenvalue and Eigenvector Analyses of Asymmetrically Perturbed Low-Rank Matrices* \n {{<u>Y. Chen</u>}}, C. Cheng, J. Fan, 2018. [publications/asymmetric_eigens.pdf \[paper\]][slides/asymmetry_eigs_slides.pdf \[slides\]]
+# 
+. *Nonconvex Optimization Meets Low-Rank Matrix Factorization: An Overview*  \n  Y. Chi, Y. Lu, {{<u>Y. Chen</u>}}, accepted to /IEEE Transactions on Signal Processing/, 2018 *(invited overview article)*.  [publications/NcxOverview_Arxiv.pdf \[paper\]][slides/Nonconvex_overview_slides.pdf \[slides\]]
+#
+. *Gradient Descent with Random Initialization: Fast Global Convergence for Nonconvex Phase Retrieval*  \n  {{<u>Y. Chen</u>}}, Y. Chi, J. Fan, C. Ma, /Mathematical Programming/, vol. 176, no. 1-2, pp. 5-37, July 2019.  [publications/random_init_PR_MP.pdf \[paper\]][publications/random_init_PR.pdf \[Arxiv\]][slides/random_init_slides.pdf \[slides\]]
+#
+. *Implicit Regularization in Nonconvex Statistical Estimation:\n Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution*  \n  C. Ma, K. Wang, Y. Chi, {{<u>Y. Chen</u>}}, accepted to /Foundations of Computational Mathematics/, 2017.  [publications/ImplicitReg_FOCM.pdf \[FoCM version\]][publications/ImplicitReg_main.pdf \[main text\]][publications/ImplicitReg_supp.pdf \[supplement\]][publications/ImplicitReg.pdf \[Arxiv\]][slides/implicit_reg_slides.pdf \[slides\]]
+\n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---accepted in part to  [publications/ImplicitReg_ICML.pdf ICML 2018]
+#
+. *Spectral Method and Regularized MLE Are Both Optimal for Top-/K/ Ranking*  \n  {{<u>Y. Chen</u>}}, J. Fan, C. Ma, K. Wang, /Annals of Statistics/, vol. 47, no. 4, pp. 2204-2235, August 2019.   [publications/topK_AOS.pdf \[paper\]][publications/topK.pdf \[Arxiv\]][slides/topK_slides.pdf \[slides\]]
+#
+. *The Likelihood Ratio Test in High-Dimensional Logistic Regression Is Asymptotically a /Rescaled/ Chi-Square*  \n  P. Sur, {{<u>Y. Chen</u>}}, E. J. Candes, accepted to /Probability Theory and Related Fields/, 2018.  [publications/LRT_HighDim.pdf \[paper\]][publications/supplement_LRT.pdf \[supplement\]][slides/LRT_HighDim_slides.pdf \[slides\]][codes/Code_LRT.zip \[code\]]
+#
+. *The Projected Power Method: An Efficient Algorithm for Joint Alignment from Pairwise Differences*  \n  {{<u>Y. Chen</u>}} and E. J. Candes, /Communications on Pure and Applied Mathematics/, vol. 71, issue 8, pp. 1648-1714, August 2018.  [publications/nonconvexAlign.pdf \[paper\]][slides/Alignment_slides.pdf \[slides\]][codes/code_NonconvexAlign.zip \[code\]]
+#
+. *Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems*  \n  {{<u>Y. Chen</u>}} and E. J. Candes, /Communications on Pure and Applied Mathematics/, vol. 70, issue 5, pp. 822 - 883, May 2017.  [publications/TruncatedWF_CPAM.pdf \[paper\]][publications/TWF_NIPS.pdf \[NIPS version\]][publications/supplement_TWF.pdf \[supplement\]][TWF/ \[webpage and code\]][slides//TWF_slides.pdf \[slides\]]
+ \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/TWF_NIPS.pdf NIPS 2015] *(oral)*
+#
+. *Community Recovery in Graphs with Locality*  \n  {{<u>Y. Chen</u>}}, G. Kamath, C. Suh, and D. Tse, /International Conference on Machine Learning (ICML)/, June 2016.  [http://arxiv.org/abs/1602.03828 \[paper\]][publications/Locality_ICML.pdf \[ICML version\]][slides/cgsi_talk_np.pptx \[CGSI slides\]][slides/Locality_ICML_slides.pdf \[ICML slides\]][https://chenyx04.github.io/Spectral-Stitching/ \[Github repo\]][https://www.youtube.com/watch?v=OQzm2jdbx8I&list=PLZDU8a6AcnujAG3OScWbsibUVEbrfMdRB&index=4 \[lecture by D. Tse\]] 
+#\n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/Locality_ICML.pdf ICML 2016]
+#
+. *Exact and Stable Covariance Estimation from Quadratic Sampling via Convex Programming* \n  {{<u>Y. Chen</u>}}, Y. Chi, and A. J. Goldsmith, /IEEE Trans. on Info. Theory/, vol. 61, no. 7, pp. 4034 - 4059, July 2015.  [publications/CovEst.pdf \[paper\]][slides/CovEst_slides.pdf \[slides\]] \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/CovEst_ISIT_Final.pdf ISIT 2014] and [publications/CovEst_ICASSP.pdf ICASSP 2014]
+# 
+. *Spectral MLE:  Top-/K/  Rank Aggregation from Pairwise Comparisons* \n {{<u>Y. Chen</u>}} and C. Suh, /International Conference on Machine Learning (ICML)/, July 2015. [http://arxiv.org/abs/1504.07218  \[paper\]][publications/rank_top_ICML.pdf  \[ICML version\]]
+#
+. *Near-Optimal Joint Object Matching via Convex Relaxation* \n {{<u>Y. Chen</u>}}, L. Guibas, and Q. Huang, /International Conference on Machine Learning (ICML)/, June 2014. [https://arxiv.org/abs/1402.1473  \[paper\]][publications/Matching_ICML.pdf \[ICML version\]][slides//matching_slides.pdf \[slides\]][codes/code_MatchLift.zip \[code\]]
+#
+. *Compressive Two-Dimensional Harmonic Retrieval via Atomic Norm Minimization* \n Y. Chi and {{<u>Y. Chen</u>}}, /IEEE Trans. on Signal Processing/, vol. 63, no. 4, pp. 1030 - 1042, Feb. 2015. [publications/atomic2D.pdf \[paper\]]
+#
+. *Scalable Semidefinite Relaxation for Maximum A Posterior Estimation* \n Q. Huang, {{<u>Y. Chen</u>}}, and L. Guibas, /International Conference on Machine Learning (ICML)/, June 2014. [publications/MRF_ICML.pdf \[paper\]][slides//MRF_ICML_slides.pdf \[slides\]]
+#
+#and [publications/CovEst_ICASSP.pdf ICASSP 2014] 
+. *Robust Spectral Compressed Sensing via Structured Matrix Completion* \n {{<u>Y. Chen</u>}} and Y. Chi, /IEEE Trans. on Info. Theory/, vol. 60, no. 10, pp. 6576 - 6601, Oct. 2014. [publications/SpectralCS.pdf  \[paper\]][publications/SpectralCS_ICML.pdf \[ICML version\]][slides/SpectralCS_slides.pdf \[slides\]] \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/SpectralCS.pdf ICML 2013] (full oral)
+
+
+== Information Theory
+. *Information Recovery from Pairwise Measurements* \n {{<u>Y. Chen</u>}}, C. Suh, and A. J. Goldsmith, /IEEE Trans. on Info. Theory/, vol. 62, no. 10, pp. 5881 - 5905, Oct. 2016. [publications/PairwiseIR_TIT.pdf \[paper\]][slides/GraphIR_Slides.pdf \[slides\]] \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/PairwiseIR_ISIT.pdf ISIT 2014] and [publications/graphIR_isit.pdf ISIT 2015]
+#
+. *Backing off from Infinity: Performance Bounds via Concentration of Spectral Measure for Random MIMO Channels* \n {{<u>Y. Chen</u>}}, A. J. Goldsmith, and Y. C. Eldar,  /IEEE Trans. on Info. Theory/, vol. 61, no. 1, pp. 366 - 387, Jan. 2015. [publications/NonasymptoticMIMO.pdf \[paper\]]
+#
+. *Minimax Capacity Loss under Sub-Nyquist Universal Sampling* \n {{<u>Y. Chen</u>}}, A. J. Goldsmith, and Y. C. Eldar, /IEEE Trans. on Info. Theory/, vol. 63, no. 6, pp. 3348 - 3367, June 2017.  [publications/MinimaxSampling_TIT.pdf \[paper\]][slides/MinimaxSampling_Slides_YChen.pdf \[slides\]] \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/Minimax_ISIT.pdf ISIT 2013] 
+#
+. *Channel Capacity under Sub-Nyquist Nonuniform Sampling* \n {{<u>Y. Chen</u>}}, A. J. Goldsmith, and Y. C. Eldar,  /IEEE Trans. on Info. Theory/, vol. 60, no. 8, pp. 4739 - 4756, Aug. 2014. [publications/NonuniformSampling.pdf  \[paper\]]\n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/NonuniformSampling_ISIT.pdf ISIT 2012]
+#
+. *Shannon Meets Nyquist: Capacity of Sampled Gaussian Channels* \n {{<u>Y. Chen</u>}}, Y. C. Eldar, and A. J. Goldsmith,  /IEEE Trans. on Info. Theory/, vol. 59, no. 8, pp. 4889 - 4914 , Aug. 2013. [publications/ChannelCap.pdf \[paper\]][slides/Shannon_Meets_Nyquist.pptx \[slides\]] \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/SampledCapacity_ICASSP.pdf ICASSP 2011]  
+
+== Network Algorithms
+#
+. *On the Role of Mobility on Multi-message Gossip* \n {{<u>Y. Chen</u>}}, S. Shakkottai and J. G. Andrews, /IEEE Trans. on Info. Theory/, vol. 59, no. 6, pp. 3953 - 3970, June 2013. [publications/Journal_GossipMobile.pdf \[paper\]][slides/MobileGossip_Slides_YuxinChen.pdf \[slides\]] \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/Infocom_GossipMobile.pdf INFOCOM 2011] (full oral)
+#
+. *An Upper Bound on Multi-hop Transmission Capacity with Dynamic Routing Selection* \n {{<u>Y. Chen</u>}} and J. G. Andrews,  /IEEE Trans. on Info. Theory/, vol. 58, no. 6, pp. 3751 - 3765, June 2012. [publications/multihop.pdf \[paper\]] \n {{&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}}---appeared in part in [publications/multihop_ISIT.pdf ISIT 2010]
+
+==  Medical Imaging
+#
+. *Resolving Phase Ambiguity in Dual-Echo Dixon Imaging Using a Projected Power Method* \n T. Zhang, {{<u>Y. Chen</u>}}, S. Bao, M. Alley, J. M. Pauly, B. Hargreaves, S. S. Vasanawala, /Magnetic Resonance in Medicine/, vol. 77, no. 5, pp. 2066 - 2076, May 2017. [http://onlinelibrary.wiley.com/doi/10.1002/mrm.26287/abstract \[paper\]][http://mrsrl.stanford.edu/~tao/software.html \[webpage\]][http://mrsrl.stanford.edu/~tao/docs/archive/DualEchoDixon.tar.gz \[code\]]
+#
+. *Robust Self-Navigated Body MRI Using Dense Coil Arrays* \n T. Zhang, J. Y. Cheng, {{<u>Y. Chen</u>}}, D. G. Nishimura, J. M. Pauly, and S. S. Vasanawala, /Magnetic Resonance in Medicine/, vol. 76, no. 1, pp. 197 - 205, 2016. [http://onlinelibrary.wiley.com/doi/10.1002/mrm.25858/abstract \[paper\]][http://mrsrl.stanford.edu/~tao/software.html \[webpage\]][http://mrsrl.stanford.edu/~tao/docs/archive/CoilClusteringDemo.tar.gz \[code\]]
+
+#
+==  Ph.D. Dissertation
+#
+- Y. Chen, [publications/thesis_YChen.pdf Subsampling in Information Theory and Data Processing], Stanford University, January 2015.
+
+
+#
+#==  Invited Talk
+#
+#. ``Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems'', /Duke Workshop on Sensing and Analysis of High-Dimensional Data (SAHD)/, July 2015
+#
+#. ``Information Recovery from Pairwise Measurements: From Joint Object Matching to Fundamental Statistical Limits'', /IDeAS Seminar/, Princeton University, April 2014
+#
+#. ``Near-Optimal Joint Object Matching via Convex Relaxation'', /Information Initiative at Duke (IID) Seminar/, Duke University, April 2014
+#
+#. ``Near-Optimal Joint Object Matching via Convex Relaxation'', /Center for Signal and Information Processing (CSIP) Seminar/, Georgia Tech, March 2014
+
+
+
+#== Signal Processing
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/superres_pr.pdf "An Algorithm for Exact Super-resolution and Phase Retrieval,"] /IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2014)/, pp. 754 - 758, Florence, Italy, May 2014. [slides/SuperresPR_Slides_YChen.pdf \[Slides\]] 
+
+#== Conference Papers
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, A. J. Goldsmith, and Y. C. Eldar, [publications/Minimax_ISIT.pdf "Minimax Universal Sampling for Compound Multiband Channels,"] /IEEE International Symposium on Information Theory (ISIT 2013)/, pp. 1032 - 1036, Istanbul, Turkey, July 2013.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, and Y. Chi, [publications/SpectralCS_ICML.pdf "Spectral Compressed Sensing via Structured Matrix Completion,"] /International Conference on Machine Learning (ICML 2013)/, pp. 414 - 422, Atlanta, Georgia, June 2013 ({{<strong>full oral</strong>}}).
+#. {{<strong><u>Y. Chen</u></strong>}}, and Y. Chi, "Compressive Harmonic Retrieval via Matrix Completion," /Signal Processing with Adaptive Sparse Structured Representation (SPARS 2013)/, Lausanne, Switzerland, July 2013 ({{<strong>oral presentation</strong>}}).
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/NonuniformSampling_ISIT.pdf "Channel Capacity under General Nonuniform Sampling,"] /IEEE International Symposium on Information Theory (ISIT 2012)/, pp. 860 - 864, Cambridge, MA, July 2012.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/SampledCapacity_ITW.pdf "Approaching the Capacity of Sampled Analog Channels,"] /IEEE Information Theory Workshop (ITW 2011)/, pp. 15 - 19, Paraty, Brazil, Oct. 2011.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, A. J. Goldsmith, and Y. C. Eldar, [publications/SampledCapacity_Allerton.pdf "Shannon Meets Nyquist: The Interplay between Capacity and Sampling,"] /49th Annual Allerton Conference on Communication, Control, and Comoputing/, pp. 1090 - 1097, Monticello, IL, Sep. 2011.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/SampledCapacity_ICASSP.pdf "Shannon Meets Nyquist: Capacity Limits of Analog Sampled Channels",] /IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2011)/, pp. 3104 - 3107, Prague, Czech Republic, May 2011.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, S. Shakkottai, and J. G. Andrews, [publications/Infocom_GossipMobile.pdf "Sharing Multiple Messages over Mobile Networks,"] /IEEE International Conference on Computer Communications (Infocom 2011)/, pp. 658 - 666, Shanghai, April 2011 ({{<strong>full-length</strong>}}).
+#
+#. {{<strong><u>Y. Chen</u></strong>}} and S. Sanghavi, [publications/UnifiedCS_Allerton.pdf "A General Framework for High-dimensional Estimation in the Presence of Incoherence,"] /48th Annual Allerton Conference on Communication, Control, and Computing/, pp. 1570	- 1576, Monticello, IL, Sep. 2010.
+#
+#. {{<strong><u>Y. Chen</u></strong>}} and J. G. Andrews, [publications/multihop_ISIT.pdf "An Upper Bound on Multi-hop Transmission Capacity with Dynamic Routing Selection,"] /IEEE International Symposium on Information Theory (ISIT 2010)/, pp. 1718 - 1722, Austin, TX, June 2010.
+
+
+
+#== Journal Articles
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. Chi, and A. J. Goldsmith, [http://arxiv.org/abs/1310.0807 "Exact and Stable Covariance Estimation from Quadratic Sampling via Convex Programming,"] October 2013.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, A. J. Goldsmith, and Y. C. Eldar, [publications/MinimaxSampling.pdf "Minimax Capacity Loss under Sub-Nyquist Universal Sampling,"] submitted to /IEEE Transactions on Information Theory/, April 2013. [slides/MinimaxSampling_Slides_YChen.pdf \[Slides\]]
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, and Y. Chi, [publications/SpectralCS.pdf "Robust Spectral Compressed Sensing via Structured Matrix Completion,"] submitted to /IEEE Transactions on Information Theory/, April 2013. [slides/SpectralCS_slides.pdf \[Slides\]]
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/ChannelCap.pdf "Shannon Meets Nyquist: Capacity of Sampled Gaussian Channels,"] /IEEE Transactions on Information Theory/, vol. 59, no 8, pp. 4889 - 4914 , August 2013. [slides/Shannon_Meets_Nyquist.pptx \[Slides\]]
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, A. J. Goldsmith, and Y. C. Eldar, [http://arxiv.org/abs/1204.6049 "Channel Capacity under Sub-Nyquist Nonuniform Sampling,"] under revision, /IEEE Transactions on Information Theory/, 2013.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, S. Shakkottai and J. G. Andrews, [publications/Journal_GossipMobile.pdf "On the Role of Mobility on Multi-message Gossip,"] /IEEE Transactions on Information Theory/, vol. 59, no. 6, pp. 3953 - 3970, June 2013. [slides/MobileGossip_Slides_YuxinChen.pdf \[Slides\]]
+#
+#. {{<strong><u>Y. Chen</u></strong>}} and J. G. Andrews, [publications/multihop.pdf "An Upper Bound on Multi-hop Transmission Capacity with Dynamic Routing Selection,"] /IEEE Transactions on Information Theory/, vol. 58, no. 6, pp. 3751 - 3765, June 2012.
+
+#== Conference Papers
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, A. J. Goldsmith, and Y. C. Eldar, [publications/Minimax_ISIT.pdf "Minimax Universal Sampling for Compound Multiband Channels,"] /IEEE International Symposium on Information Theory (ISIT 2013)/, pp. 1032 - 1036, Istanbul, Turkey, July 2013.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, and Y. Chi, [publications/SpectralCS_ICML.pdf "Spectral Compressed Sensing via Structured Matrix Completion,"] /International Conference on Machine Learning (ICML 2013)/, pp. 414 - 422, Atlanta, Georgia, June 2013 ({{<strong>full oral</strong>}}).
+#. {{<strong><u>Y. Chen</u></strong>}}, and Y. Chi, "Compressive Harmonic Retrieval via Matrix Completion," /Signal Processing with Adaptive Sparse Structured Representation (SPARS 2013)/, Lausanne, Switzerland, July 2013 ({{<strong>oral presentation</strong>}}).
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/NonuniformSampling_ISIT.pdf "Channel Capacity under General Nonuniform Sampling,"] /IEEE International Symposium on Information Theory (ISIT 2012)/, pp. 860 - 864, Cambridge, MA, July 2012.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/SampledCapacity_ITW.pdf "Approaching the Capacity of Sampled Analog Channels,"] /IEEE Information Theory Workshop (ITW 2011)/, pp. 15 - 19, Paraty, Brazil, Oct. 2011.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, A. J. Goldsmith, and Y. C. Eldar, [publications/SampledCapacity_Allerton.pdf "Shannon Meets Nyquist: The Interplay between Capacity and Sampling,"] /49th Annual Allerton Conference on Communication, Control, and Comoputing/, pp. 1090 - 1097, Monticello, IL, Sep. 2011.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, Y. C. Eldar, and A. J. Goldsmith, [publications/SampledCapacity_ICASSP.pdf "Shannon Meets Nyquist: Capacity Limits of Analog Sampled Channels",] /IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2011)/, pp. 3104 - 3107, Prague, Czech Republic, May 2011.
+#
+#. {{<strong><u>Y. Chen</u></strong>}}, S. Shakkottai, and J. G. Andrews, [publications/Infocom_GossipMobile.pdf "Sharing Multiple Messages over Mobile Networks,"] /IEEE International Conference on Computer Communications (Infocom 2011)/, pp. 658 - 666, Shanghai, April 2011 ({{<strong>full-length</strong>}}).
+#
+#. {{<strong><u>Y. Chen</u></strong>}} and S. Sanghavi, [publications/UnifiedCS_Allerton.pdf "A General Framework for High-dimensional Estimation in the Presence of Incoherence,"] /48th Annual Allerton Conference on Communication, Control, and Computing/, pp. 1570	- 1576, Monticello, IL, Sep. 2010.
+#
+#. {{<strong><u>Y. Chen</u></strong>}} and J. G. Andrews, [publications/multihop_ISIT.pdf "An Upper Bound on Multi-hop Transmission Capacity with Dynamic Routing Selection,"] /IEEE International Symposium on Information Theory (ISIT 2010)/, pp. 1718 - 1722, Austin, TX, June 2010.
+
+
+
+

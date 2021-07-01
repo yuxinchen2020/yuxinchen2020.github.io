@@ -1,0 +1,176 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+~~~
+{}{raw}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+~~~
+
+= Tutorials and Lecture Series
+
+#
+. [slides/itw2018_tutorial.pdf Taming nonconvexity in information science] \n
+.. ITW 2018, together with Yuejie Chi 
+. [slides/icassp2018_tutorial.pdf Recent advances in nonconvex methods for high-dimensional estimation] \n
+.. ICASSP 2018, together with Yuejie Chi and Yue Lu 
+. TRIAD Lecture Series 2019, Georgia Tech
+.. [slides/Gatech2019_TWF.pdf The power of nonconvex optimization in solving random quadratic systems of equations]
+.. [slides/random_init_slides.pdf Random initialization and implicit regularization in nonconvex statistical estimation]
+.. [slides/Alignment_slides_long.pdf Projected power method: an efficient nonconvex algorithm for joint discrete assignment]
+.. [slides/ranking_asymmetry_slides.pdf Spectral methods meets asymmetry: two recent stories] 
+.. [slides/NoisyMC_Inference_slides_Gatech.pdf Inference and uncertainty quantification for noisy matrix completion]
+
+
+= Invited Talks
+
+# 
+. [slides/Chen_MB_Q_NPG.pdf Demystifying the efficiency of reinforcement learning: a few recent stories] \n
+.. Frontiers in Computing and Mathematical Sciences, Caltech, Feb. 2021
+.. Operation Research Seminar, Chinese Operation Research Society, Sep. 2020 
+#
+. [slides/slides_TC.pdf Taming nonconvexity in tensor completion: Fast convergence and uncertainty quantification] \n
+.. Department Seminar, Statistics Department, Harvard University, Feb. 2021
+.. Department Seminar, Department of Data Sciences and Operations, University of Southern California, Feb. 2021
+#
+. [slides/slides_TC_NPG.pdf Taming nonconvexity in statistical and reinforcement learning] \n
+.. Department Seminar, Department of Electrical Engineering, Yale University, Feb. 2021
+.. ECSE Seminar Series, RPI, Feb. 2021
+#
+. [slides/model_based_RL_slides.pdf Breaking the sample size barrier in reinforcement learning via model-based approaches (a.k.a.~plug-in approaches)] \n
+.. Neyman Seminar, Statistics Department, UC Berkeley, Nov. 2020
+# 
+. [slides/RandomInit_Inference_Stability_slides.pdf Nonconvex optimization meets statistics: a few recent stories] \n
+.. Department Seminar, Electrical and Computer Engineering, Carnegie Mellon University, Jan. 2021
+.. Communications and Signal Processing seminar, University of Michigan, March 2020
+.. TBSI Workshop on Data Science, Shenzhen, December 2019
+.. Penn Research in Machine Learning Seminar, University of Pennsylvania, Oct. 2019
+.. ORIE Colloquium Seminar Series, Cornell University, Oct. 2019
+#
+. [slides/NoisyMC_Inference_slides_Gatech.pdf Inference and uncertainty quantification for noisy matrix completion] \n
+.. ICSA International Conference, Hangzhou, December 2019
+# 
+. [slides/NoisyMC_Inference_slides.pdf Bridging convex and nonconvex optimization in noisy matrix completion: stability and uncertainty quantification] \n
+.. MIFODS Workshop on Graphical Models, MIT, August 2019
+.. International Conference on Continuous Optimization (ICCOPT), Berlin, August 2019
+.. Statistics Seminar, Stanford University, May 2019
+.. Statistics Colloquium, University of Chicago, May 2019
+.. PACM Colloquium, Princeton University, May 2019
+#
+. [slides/NoisyMC_Asymmetry_slides.pdf Stability, nonconvex optimization, and asymmetry in low-rank matrix estimation] \n
+.. TRIPODS Seminar, University of Arizona, Feb. 2019
+#
+. [slides/NoisyMC_slides.pdf Noisy matrix completion: understanding statistical guarantees of convex relaxation via nonconvex optimization] \n
+.. Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, Nov. 2019
+.. INFORMS Annual Meeting, Seattle, Oct. 2019
+.. Information Theory and Its Applications (ITA) Workshop, San Diego, Feb. 2019
+#
+. [slides/random_init_slides.pdf Random initialization and implicit regularization in nonconvex statistical estimation] \n
+.. TRIPODS Southwest Summer Conference, May 2019
+.. Signal and Information Processing (SIP) Seminar, Rutgers University, Mar. 2019
+.. [https://www.kitp.ucsb.edu/activities/scape-c19 KITP Conference ``Rough Landscapes: From Physics to Algorithms''], UCSB, Jan. 2019
+.. International Workshop on Mathematical Issues in Information Sciences (MIIS), Shenzhen, Dec. 2018
+.. MaD (Math and Data) Seminar, NYU Courant Institute and Center for Data Science, Nov. 2018
+.. INFORMS Annual Meeting, Phoenix, Nov. 2018
+.. Optimization Seminar, ORFE, Princeton University, Oct. 2018
+.. Department Seminar, Department of Statistics and Data Science, Yale University, Oct. 2018 
+.. 56th Annual Allerton Conference on Communication, Control, and Computing, Monticello, Oct. 2018
+.. ISE Department Seminar, University of Southern California, Sep. 2018
+.. [https://www.imperial.ac.uk/electrical-engineering/research/comms-and-signal-processing/events/londonworkshop2018/ London Workshop on Non-convex Optimisation and Matrix Factorisation], Sep. 2018
+.. Wharton Statistics Department Seminar, University of Pennsylvania, Sep. 2018 
+.. Statistics Research Colloquium, Purdue University, Sep. 2018
+.. ICSA China Conference with the Focus on Data Science, Qingdao, July 2018
+.. ICSA 2018 Applied Statistics Symposium, New Brunswick, June 2018
+.. Joint ISL Colloquium and IT Forum,  Stanford University, May 2018
+.. [https://www.mfo.de/occasion/1813/www_view Oberwolfach Workshop on Applied Harmonic Analysis and Data Processing], Mar. 2018
+.. Colloquium, Statistics Department, PSU, Apr. 2018
+#
+. [slides/asymmetry_eigs_slides.pdf Asymmetry helps: Eigenvalue and eigenvector analyses of asymmetrically perturbed low-rank matrices] \n
+.. CMStatistics, Pisa, Dec. 2018
+#
+. [slides/implicit_reg_slides.pdf Implicit regularization in nonconvex statistical estimation] \n  
+.. INFORMS Annual Meeting, Phoenix, Oct. 2019
+.. Information Theory and Its Applications (ITA) Workshop, San Diego, Feb. 2018
+.. Data Science Seminar series, Institute for Mathematics and its Applications (IMA), Jan. 2018
+.. International Conference on Data Science, Shanghai, Dec. 2017
+.. Signal Processing and Communications Seminar Series, University of Delaware, Dec. 2017
+.. [https://simons.berkeley.edu/workshops/schedule/4795 Simons Institute Workshop on Optimization, Statistics and Uncertainty],  Berkeley, Nov. 2017
+.. 50th Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, Oct. 2017
+.. Statistics Seminar, Columbia University, Oct. 2017
+#
+. Regularized mirror descent: A nonconvex approach for learning mixed probability distributions \n  
+.. 55th Annual Allerton Conference on Communication, Control, and Computing, Monticello, Oct. 2017
+#
+. [slides/topK_slides.pdf Spectral method and regularized MLE are both optimal for top-K ranking] \n  
+.. Joint Statistical Meetings (JSM), Baltimore, Aug. 2017
+#
+. [slides/Alignment_slides_long.pdf The projected power method: a nonconvex algorithm for discrete problems] \n
+.. Electrical Engineering Seminar Series, Harvard University, Apr. 2017
+#
+. ``The effectiveness of nonconvex optimization in two problems'' \n 
+# 
+.. Statistics Seminar, NYU Stern School of Business, New York, Mar. 2017
+# 
+.. IDeAS Seminar, Princeton University, Mar. 2017
+# 
+. [slides/Alignment_slides.pdf The projected power method: an efficient algorithm for joint alignment from pairwise differences] \n 
+# 
+.. Information Theory and Applications (ITA) Workshop, San Diego, Feb. 2017
+# 
+#.. Information Theory and Applications Workshop, San Diego, Feb. 2017
+# 
+#.. Information Theory and Applications Workshop, San Diego, Feb. 2017
+#
+.. Meeting of the International Linear Algebra Society, July 2017
+# 
+.. SIAM Conference on Optimization, Vancouver, May 2017
+# 
+.. Stanford Wireless Systems Lab, Stanford, Jan. 2017
+# 
+.. [http://www.birs.ca/events/2016/5-day-workshops/16w5136/videos CMO-BIRS Workshop: Applied Harmonic Analysis, Massive Data Sets, Machine Learning, and Signal Processing],  Oaxaca, Oct. 2016
+#
+.. 54th Annual Allerton Conference on Communication, Control, and Computing, Monticello, Sep. 2016
+#
+. [slides/TWF_slides.pdf Solving random quadratic systems of equations is nearly as easy as solving linear systems] \n 
+#
+.. ShanghaiTech Symposium on Information Science and Technology (SSIST) 2017, Shanghai, July 2017 
+#
+.. International Conference on Continuous Optimization (ICCOPT), Berlin, August 2019
+#
+.. 50th Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, Nov. 2016
+#
+.. World Congress in Probability and Statistics, Toronto, July 2016
+#
+.. Workshop on Sensing and Analysis of High-Dimensional Data (SAHD),  Duke University, July 2015
+#
+. The power of nonconvex paradigms for high-dimensional estimation \n  
+#.. Electrical and Systems Engineering, University of Pennsylvania, Mar. 2016
+ MIT EECS, Princeton EE\/CS, USC CS\/ISE, CMU MLD, UMich ECE\/MIDAS, Columbia EE/IEOR, Cornell ECE, UC Davis ECE, NYU ECE,  Jan. 2016 -- Mar. 2016
+#
+. [slides//TWF_slides.pdf Modern optimization meets physics: recent progress on phase retrieval] \n  
+#
+.. International Matheon Conference on Compressed Sensing and its Applications (CSA), 
+Berlin, Dec. 2015
+#
+#. ``Information recovery from pairwise measurements: from joint object matching to fundamental statistical limits'' \n
+#IDeAS Seminar \n
+ #
+. [slides//matching_slides.pdf Near-optimal joint object matching via convex relaxation] \n
+#
+.. INFORMS Annual Meeting, Phoenix, Nov. 2018
+.. IDeAS Seminar, Princeton University, Apr. 2014
+#
+.. Information Initiative at Duke (iiD) Seminar, Duke University, Apr. 2014
+#
+#. [slides//matching_slides.pdf ``Near-optimal joint object matching via convex relaxation''] \n
+.. Center for Signal and Information Processing (CSIP) Seminar, Georgia Tech, Mar. 2014
+#
+
+
+

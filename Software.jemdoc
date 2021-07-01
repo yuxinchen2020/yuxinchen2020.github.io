@@ -1,0 +1,35 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+~~~
+{}{raw}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+~~~
+
+
+
+= Software and Code 
+
+== [https://chenyx04.github.io/Spectral-Stitching/ Spectral Stitching] 
+- This is a community detection approach to the haplotype phasing in computational genomics. [https://chenyx04.github.io/Spectral-Stitching/ \[Github repo\]][publications/Locality_ICML.pdf \[paper\]]
+#
+== [http://www.princeton.edu/~yc5/TWF/ Truncated Wirtinger Flow] 
+- This is a linear-time nonconvex algorithm for solving random quadratic systems of equations. [http://www.princeton.edu/~yc5/TWF/ \[webpage\]][publications/TruncatedWF_CPAM.pdf \[paper\]]
+#
+== [codes/code_NonconvexAlign.zip Projected Power Method for Joint Alignment] 
+- This is a nonconvex algorithm for joint discrete alignment from pairwise differences. [codes/code_NonconvexAlign.zip \[code\]][publications/nonconvexAlign.pdf \[paper\]]
+#
+== [http://mrsrl.stanford.edu/~tao/docs/archive/DualEchoDixon.tar.gz Projected Power Method for Dual-Echo Dixon Imaging]
+- This is a nonconvex algorithm for fast and robust water-fat separation in dual-echo Dixon imaging. [http://mrsrl.stanford.edu/~tao/docs/archive/DualEchoDixon.tar.gz \[code\]][http://onlinelibrary.wiley.com/doi/10.1002/mrm.26287/abstract \[paper\]]
+#
+== [codes/code_MatchLift.zip MatchLift] 
+- This is a convex relaxation approach for joint graph matching, implemented using alternating direction method of multipliers (ADMM). [codes/code_MatchLift.zip \[code\]][publications/Matching_ICML.pdf \[paper\]]
+
+

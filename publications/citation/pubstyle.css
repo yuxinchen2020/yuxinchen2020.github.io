@@ -1,0 +1,130 @@
+body {
+	font-family :verdana;
+	font-size: 80%;
+	color: #3c3c34;
+	margin:0;
+	padding:0;
+	height: 100%;
+	width:50em;
+    
+}
+
+h2 {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding: 0px; 
+   font-size: 135%;
+}
+
+h2 {
+   margin-top: 3px;
+   margin-bottom: 3px;
+   padding: 0px; 
+   font-size: 110%;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #c06f2e;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #3c3c34;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #3c3c34;
+}
+
+#wrap {
+
+
+}
+
+#header {
+	width:500px;
+	height:130px;
+	position:absolute;
+	top: 0;
+	left: 0;
+	margin-left: 10px;
+	text-align:center;
+	
+	
+	
+}
+
+#fixed {
+    min-width: 600px;
+    position: absolute;
+    top: 0;
+    left: 520px;
+    width: 600px;
+    height: 100%;
+	
+}
+
+#fixed2 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 502px;
+    height: 130px;
+	background-color: #ffffff;
+	
+}
+
+
+
+#content {
+    margin-left: 10px;
+	margin-top: 140px;
+	border: 1px solid #cccccc;
+	padding: 10px;
+	width: 480px;
+	overflow:scroll;
+	height: 400px;
+}
+
+
+#menutable {
+	background-color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #B3CAB8; 
+	
+	
+}
+
+#menutable a {
+	color: #3c3c34;
+
+}
+
+
+#menutable tr {
+	background-color: #c7dfcd; 
+}
+
+#menutable td:hover {
+	background-color: #B3CAB8; 
+}
+
+.bibbox {
+	background-color: #B3CAB8; 
+	width: 600px;
+	padding: 10px;
+	margin-top: 20px;
+	overflow:scroll;
+}
+
+.biboutput {
+	background-color: #ffffff;
+	margin-left: 10px;
+	width: 480px;
+	padding: 10px;
+	margin-top: 150px;
+}
