@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Algorithm: Truncated Wirtinger Flow (TWF)</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">TWF</div>
+<div class="menu-item"><a href="index.html">Paper</a></div>
+<div class="menu-item"><a href="algorithm.html" class="current">Algorithm</a></div>
+<div class="menu-item"><a href="code.html">Code</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Algorithm: Truncated Wirtinger Flow (TWF)</h1>
+<div id="subtitle"><a href="www.princeton.edu/~yc5/">Yuxin Chen</a> and <a href="http://statweb.stanford.edu/~candes/">Emmanuel J. Candès</a></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<h2>Motivation</h2>
+<p>Under a stochastic noise model with independent samples, a first
+impulse for solving <img class="eq" src="eqs/3158518190221188992-130.png" alt="y_i approx |langle a_i, x rangle|^2" style="vertical-align: -5px" /> is to seek the maximum
+likelihood estimate (MLE), namely,</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/3705170531613011625-130.png" alt=" 	min_{z} quad - sum_{i=1}^{m}ell_i (z), " />
+<br /></div><p>where <img class="eq" src="eqs/3641589228947483292-130.png" alt="ell_i (z)" style="vertical-align: -5px" /> denotes the log-likelihood
+of <img class="eq" src="eqs/15616046971-130.png" alt="z" style="vertical-align: -1px" /> given <img class="eq" src="eqs/7125508497047937994-130.png" alt="y_i" style="vertical-align: -4px" />.
+For instance, under the Poisson noise model <img class="eq" src="eqs/7681708763812802386-130.png" alt="y_i sim" style="vertical-align: -4px" /> Poisson<img class="eq" src="eqs/4024669077070460267-130.png" alt="(|langle a_i, xrangle|^2)" style="vertical-align: -5px" />, <img class="eq" src="eqs/848932715997679048-130.png" alt="1leq ileq m" style="vertical-align: -3px" />,
+one has </p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/5139572205518051535-130.png" alt=" 	 ell_i  (z) = y_i log(|a_i^{*}z|^2) 				 - |a_i^{*}z|^2   " />
+<br /></div><p>If we follow the Wirtinger flow <a href="1">1</a> approach or other gradient descent paradigms, we would proceed as </p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/8500551774480121604-130.png" alt=" 	z^{(t+1)}= z^{(t)} + frac{mu_{t}}{m} sum_{i=1}^{m} nabla ell_i ( z^{(t)} ) " />
+<br /></div><p>for some appropriate initial guess <img class="eq" src="eqs/3493541809075579042-130.png" alt="z^{(0)}" style="vertical-align: -1px" />, where <img class="eq" src="eqs/1299052172196549-130.png" alt="nabla ell_i( z ) = 2frac{y_i - |a_i^* z|^2}{z^* a_i} a_i" style="vertical-align: -12px" /> denotes the Wirtinger derivative (or ordinary gradient for the real case).  Unfortunately, this approach does not work for real-valued case, since some of the gradient components <img class="eq" src="eqs/2319406073863070810-130.png" alt="nabla_i ell(z)" style="vertical-align: -5px" /> are abnormally large. </p>
+<table class="imgtable"><tr><td>
+<img src="Figures/grad_distribution.png" alt="alt text" width="350 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>Figure 1: the locus of <img class="eq" src="eqs/8741553338780650591-130.png" alt="- frac{1}{2}nabla ell_i(z)" style="vertical-align: -7px" /> for all unit vectors <img class="eq" src="eqs/1453079729247098462-130.png" alt="a_i" style="vertical-align: -4px" />. </p>
+</td></tr></table>
+<h2>TWF methodology</h2>
+<p>TWF is a novel non-convex procedure that adopts a more subtle gradient flow, which proceeds in two stages:</p>
+<p>(1) <b>Truncated Spectral Initialization</b>: compute an initial guess
+<img class="eq" src="eqs/3493541809075579042-130.png" alt="z^{(0)}" style="vertical-align: -1px" /> by means of a spectral method applied to a
+subset of the observations <img class="eq" src="eqs/1080840510410436274-130.png" alt="{y_i}" style="vertical-align: -5px" /> obeying </p>
+<p><div class="eqwl"><img class="eqwl" src="Figures/truncate_init.png" alt="" />
+<br /></div>  </p>
+<table class="imgtable"><tr><td>
+<img src="Figures/stanford_quad_init_TWF.png" alt="" width="800 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>Estimate after 50 truncated power iterations</p>
+</td></tr></table>
+<p>(2) <b>Truncated Gradient Flow</b>: for <img class="eq" src="eqs/6421974273236906407-130.png" alt="i=1: T" style="vertical-align: -1px" />, </p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/5035303330995137753-130.png" alt=" 	z^{(t+1)}= z^{(t)} + frac{mu_{t}}{m} sum_{iin S_{t+1}} nabla ell_i ( z^{(t)} )   " />
+<br /></div><p>for some adaptive index set <img class="eq" src="eqs/1364959877702804467-130.png" alt="S_{t+1}" style="vertical-align: -5px" /> determined by <img class="eq" src="eqs/3493609809467579766-130.png" alt="z^{(t)}" style="vertical-align: -1px" />; i.e.  for any <img class="eq" src="eqs/2396761512743372960-130.png" alt="iin S_t" style="vertical-align: -4px" />,</p>
+<p><div class="eqwl"><img class="eqwl" src="Figures/truncate_iterative.png" alt="" />
+<br /></div>  </p>
+<p>In words, the adaptive subset <img class="eq" src="eqs/1364959877702804467-130.png" alt="S_{t+1}" style="vertical-align: -5px" /> guarantees that both <img class="eq" src="eqs/8821585574760455197-130.png" alt="a_i^* z^{(t)}" style="vertical-align: -6px" /> and <img class="eq" src="eqs/1887103173624787224-130.png" alt="y_i - |a_i^{*}z^{(t)}|^2" style="vertical-align: -6px" /> take typical values, and hence none of the gradient component <img class="eq" src="eqs/2282911388019036279-130.png" alt="nabla ell_i(z^{(t)})" style="vertical-align: -5px" /> are abnormally large. 
+Here, the step size <img class="eq" src="eqs/1225951145991917186-130.png" alt="mu_t" style="vertical-align: -4px" /> is either chosen to be <i>a constant</i> or determined by <i>a backtracking line search</i>.</p>
+<table class="imgtable"><tr><td>
+<img src="Figures/stanford_quad_50iter_TWF.png" alt="" width="800 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p>Estimate after 50 TWF gradient iterations</p>
+</td></tr></table>
+<h2>Detailed algorithmic procedure</h2>
+<p><b>By default</b>, the step size and the truncation thresholds are set to be <img class="eq" src="eqs/852450168795046770-130.png" alt="mu_tequiv 0.2" style="vertical-align: -4px" />, <img class="eq" src="eqs/985132226992953098-130.png" alt="alpha_z^{lb}=0.3" style="vertical-align: -6px" />, <img class="eq" src="eqs/6914593478299929439-130.png" alt="alpha_z^{ub}=5" style="vertical-align: -6px" />, <img class="eq" src="eqs/2221341347721266577-130.png" alt="alpha_h=5" style="vertical-align: -4px" />, and <img class="eq" src="eqs/2221356347717266466-130.png" alt="alpha_y=3" style="vertical-align: -6px" />.</p>
+<table class="imgtable"><tr><td>
+<img src="Figures/algorithm.png" alt="alt text" width="800 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2017-03-26 23:36:59 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

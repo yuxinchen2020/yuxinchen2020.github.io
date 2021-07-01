@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Solving Quadratic Systems of Equations via Truncated Wirtinger Flow</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">TWF</div>
+<div class="menu-item"><a href="index.html" class="current">Paper</a></div>
+<div class="menu-item"><a href="algorithm.html">Algorithm</a></div>
+<div class="menu-item"><a href="code.html">Code</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Solving Quadratic Systems of Equations via Truncated Wirtinger Flow</h1>
+<div id="subtitle"><a href="www.princeton.edu/~yc5/">Yuxin Chen</a> and <a href="http://statweb.stanford.edu/~candes/">Emmanuel J. Candès</a></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3857157-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<p><i>For random designs: computational cost of TWF</i> <img class="eq" src="eqs/1445970359978471263-130.png" alt="approx" style="vertical-align: --1px" /> <img class="eq" src="eqs/3991372700803786874-130.png" alt="bf 4 times" style="vertical-align: -0px" /> <i>that of solving Least Squares of the same size</i> </p>
+<table class="imgtable"><tr><td>
+<img src="Figures/CG_TWF_no_caption.png" alt="alt text" width="500 px" height="IMGLINKTARGET" />&nbsp;</td>
+<td align="left"><p><i>Truncated Wirtinger Flow (TWF)</i> is a non-convex procedure for solving quadratic equations:</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/7888969321000092610-130.png" alt=" 	qquad qquad y_i approx  |langle a_i, x rangle|^2, qquad  1 leq i leq m. " />
+<br /></div><ul>
+<li><p>the data <img class="eq" src="eqs/6435960255074584663-130.png" alt="{y_i}_{1leq i leq m}" style="vertical-align: -6px" /> and design vectors <img class="eq" src="eqs/2922216278306135873-130.png" alt="a_i in R^n/C^n" style="vertical-align: -5px" /> are known;</p>
+</li>
+<li><p><img class="eq" src="eqs/4009016879025130340-130.png" alt="x in R^n/C^n" style="vertical-align: -5px" /> is unknown.</p>
+</li>
+</ul>
+</td></tr></table>
+<div class="infoblock">
+<div class="blocktitle"></div>
+<div class="blockcontent">
+<p><b>Solving Random Quadratic Systems of Equations Is Nearly as Easy as Solving Linear Systems.</b>  Y. Chen and E. J. Candès.</p>
+<p>We consider the fundamental problem of solving quadratic systems of
+equations in <img class="eq" src="eqs/14080042351-130.png" alt="n" style="vertical-align: -1px" /> variables, where <img class="eq" src="eqs/4248878180042017773-130.png" alt="y_i = |langle a_i, x rangle|^2" style="vertical-align: -5px" />,
+<img class="eq" src="eqs/8860244337069070663-130.png" alt="i = 1, cdots, m" style="vertical-align: -4px" /> and <img class="eq" src="eqs/475757092265414954-130.png" alt="x in R^n" style="vertical-align: -1px" /> is
+unknown. We propose a novel method, which starting with an initial
+guess computed by means of a spectral method, proceeds by minimizing
+a nonconvex functional as in the Wirtinger flow approach. 
+There are several key distinguishing
+features, most notably, a distinct objective functional and novel
+update rules, which operate in an adaptive fashion and drop terms
+bearing too much influence on the search direction.  These careful
+selection rules provide a tighter initial guess, better descent
+directions, and thus enhanced practical performance. On the
+theoretical side, we prove that for certain unstructured models of
+quadratic systems, our algorithms return the correct solution in
+linear time, i.e.&nbsp;in time proportional to reading the data
+<img class="eq" src="eqs/8676166144052599014-130.png" alt="{a_i}" style="vertical-align: -5px" /> and <img class="eq" src="eqs/1080840510410436274-130.png" alt="{y_i}" style="vertical-align: -5px" /> as soon as the ratio <img class="eq" src="eqs/6387157652970355989-130.png" alt="m/n" style="vertical-align: -5px" />
+between the number of equations and unknowns exceeds a fixed
+numerical constant.  We extend the theory to deal with noisy systems
+in which we only have
+<img class="eq" src="eqs/3158518190221188992-130.png" alt="y_i approx |langle a_i, x rangle|^2" style="vertical-align: -5px" />
+and prove that our algorithms achieve a statistical accuracy, which
+is nearly un-improvable. We complement our theoretical study with
+numerical examples showing that solving random quadratic systems is
+both computationally and statistically not much harder than solving
+linear systems of the same size&#8201;&mdash;&#8201;hence the title of this paper. For
+instance, we demonstrate empirically that the computational cost of
+our algorithm is about four times that of solving a least-squares
+problem of the same size.</p>
+<ul>
+<li><p><a href="../publications/TruncatedWF.pdf">Manuscript</a></p>
+</li>
+<li><p><a href="../publications/supplement_TWF.pdf">Supplemental materials</a></p>
+</li>
+<li><p><a href="code/TWF_all.zip">Source code (.zip)</a></p>
+</li>
+</ul>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2017-03-26 23:36:59 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
