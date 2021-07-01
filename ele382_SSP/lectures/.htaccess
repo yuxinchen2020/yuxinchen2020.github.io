@@ -1,0 +1,4 @@
+SSLRequireSSL
+AuthType Basic
+AuthName "Provide netID and LDAP password"
+require valid-user
